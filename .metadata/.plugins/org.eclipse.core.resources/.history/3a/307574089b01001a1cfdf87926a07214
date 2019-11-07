@@ -1,0 +1,21 @@
+
+public class Pilot {
+
+	private String name;
+	
+	public Pilot(String name){
+		this.name = name;
+	}
+	
+	public void interact(){
+		System.out.println(name+": Welcome aboard!");
+	}
+	
+	
+	public static void main(String[] args){
+		Pilot p = new Pilot("Stephen");
+		Plane plane = new PlaneFlightCounter(plane);
+		
+	}
+	
+}

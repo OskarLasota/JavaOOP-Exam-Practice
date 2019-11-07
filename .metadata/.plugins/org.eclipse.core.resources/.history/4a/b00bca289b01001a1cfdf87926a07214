@@ -1,0 +1,9 @@
+
+public class PlaneAdapter implements Plane{
+
+	@Override
+	public void fly(Pilot pilot) {
+		
+	}
+
+}
