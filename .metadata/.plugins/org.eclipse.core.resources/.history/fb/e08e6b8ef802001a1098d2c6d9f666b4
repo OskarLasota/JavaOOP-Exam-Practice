@@ -1,0 +1,24 @@
+package ObserverPattern;
+
+public class DogBot {
+
+	protected int hungry, tired;
+	private String name;
+	
+	public DogBot(String nm, int h, int t){
+		name=nm;
+		hungry=h;
+		tired=t;
+	}
+	
+	public boolean eat(){
+		if(hungry>6){
+			hungry-=3;
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	
+}

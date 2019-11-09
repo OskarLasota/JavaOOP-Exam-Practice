@@ -1,0 +1,14 @@
+package ObserverPattern;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class DogWatcher implements Observer{
+
+	@Override
+	public void update(Observable obj, Object action) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

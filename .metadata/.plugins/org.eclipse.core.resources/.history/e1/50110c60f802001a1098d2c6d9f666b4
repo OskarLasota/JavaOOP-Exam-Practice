@@ -1,0 +1,8 @@
+package ObserverPattern;
+
+public class DogBot {
+
+	protected int hungry, tired;
+	private String name;
+	
+}
